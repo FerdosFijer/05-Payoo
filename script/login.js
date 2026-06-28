@@ -13,6 +13,9 @@ document.getElementById("login-btn").addEventListener("click", function(){
     if(contactNumber == "01706304186" && pin =="1234"){
         // 3-1 true: >> alert> homepage
         alert("login success");
+
+        // window.location.replace("/home.html")  //replace diye korle history thake na
+        window.location.assign("/home.html")
     }else{
         // 3-2 false: >> alert> return
         alert("login Failed");
